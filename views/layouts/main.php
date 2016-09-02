@@ -65,13 +65,31 @@ AppAsset::register($this);
 </div>
 
 <footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
+    <div class="footer">
+        <div class="footer_center">
+            <div class="about">
+                <a href="about_us.html"><h1>|&nbsp;关于我们&nbsp;|</h1></a>
+                <a href="about_us.html"><span><img src="img/classification_250.png">平台简介</span></a>
+                <a href="merchants_settled.html"><span><img src="img/classification_250.png">合作加盟</span></a>
+                <a href="about_us.html"><span><img src="img/classification_250.png">关于售后</span></a>
+                <a href="about_us.html"><span><img src="img/classification_250.png">联系客服</span></a>
+            </div>
+            <div class="qr_code">
+                <img src="img/code.jpg" />
+                <h6>扫码了解更多</h6><br><br>
+                <h5>路保驰（天津）汽车维修服务有限公司</h5>
+                <h5>Copyright &copy 2016. domain.com All rights reserved.</h5>
+            </div>
+            <div class="service_guide">
+                <a href="service_guide.html"><h1>|&nbsp;服务指南&nbsp;|</h1></a>
+                <a href="service_guide.html"><span><img src="img/classification_250.png">服务流程</span></a>
+                <a href="service_guide.html"><span><img src="img/classification_250.png">常见问题</span></a>
+                <a href="service_guide.html"><span><img src="img/classification_250.png">发票相关</span></a>
+                <a href="service_guide.html"><span><img src="img/classification_250.png">安全保障</span></a>
+            </div>
+        </div>
     </div>
 </footer>
-
 <?php $this->endBody() ?>
 </body>
 </html>
